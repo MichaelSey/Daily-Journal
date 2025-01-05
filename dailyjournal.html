@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daily Journal </title>
+</head>
+
+<body>
+    <main>
+        <form>
+            <section>
+                <h1 align="center">Daily Journal</h1>
+                <hr>
+
+                <table border=".2" align="center">
+                    <thead>
+                        <tr>
+                            <th>
+                                <h2>Task</h2>
+                            </th>
+                            <th>
+                                <h2> Due Time</h2>
+                            </th>
+                            <th>
+                                <h2>Priority</h2>
+                            </th>
+                            <th>
+                                <h2>Status</h2>
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <form>
+                                    <label for="task">1</label>
+                                    <input type="text" id="task" placeholder="Task?" name="task" required>
+                                </form>
+                            </td>
+                            <td>
+                                <form>
+                                    <label for="time">Time:</label>
+                                    <input type="time" id="time" placeholder="Time?" name="time"
+                                        pattern="[0-9]{2} :[0-9]{2}">
+                                </form>
+                            </td>
+                            <td>
+                                <select name="priority" id="priority" required>
+                                    <option value="Low" selected>Low</option>
+                                    <option value="Medium">Medium</option>
+                                    <option value="High">High</option>
+
+                                </select>
+                            </td>
+                            <td>
+                                <select name="status" id="status" required>
+                                    <option value="Not Started" selected>Not Started</option>
+                                    <option value="Started">Started</option>
+                                    <option value="Completed">Completed</option>
+
+                                </select>
+                            </td>
+
+                        </tr>
+                        <tr>
+                            <td>
+                                <form>
+                                    <label for="task">2</label>
+                                    <input type="text" id="task" placeholder="Task?" name="task" required>
+                                </form>
+                            </td>
+                            <td>
+                                <form>
+                                    <label for="time">Time:</label>
+                                    <input type="time" id="time" placeholder="Time?" name="time" required>
+                                </form>
+                            </td>
+                            <td>
+                                <select name="priority" id="priority" required>
+                                    <option value="Low" selected>Low</option>
+                                    <option value="Medium">Medium</option>
+                                    <option value="High">High</option>
+
+                                </select>
+                            </td>
+                            <td>
+                                <select name="status" id="status" required>
+                                    <option value="Not Started" selected>Not Started</option>
+                                    <option value="Started">Started</option>
+                                    <option value="Completed">Completed</option>
+
+                                </select>
+                            </td>
+
+                        </tr>
+                        <tr>
+                            <td>
+                                <form>
+                                    <label for="task">3</label>
+                                    <input type="text" id="task" placeholder="Task?" name="task" required>
+                                </form>
+                            </td>
+                            <td>
+                                <form>
+                                    <label for="time">Time:</label>
+                                    <input type="time" id="time" placeholder="Time?" name="time" required>
+                                </form>
+                            </td>
+                            <td>
+                                <select name="priority" id="priority" required>
+                                    <option value="Low" selected>Low</option>
+                                    <option value="Medium">Medium</option>
+                                    <option value="High">High</option>
+
+                                </select>
+                            </td>
+                            <td>
+                                <select name="status" id="status" required>
+                                    <option value="Not Started" selected>Not Started</option>
+                                    <option value="Started">Started</option>
+                                    <option value="Completed">Completed</option>
+
+                                </select>
+                            </td>
+
+                        </tr>
+                        <tr>
+                            <td>
+                                <form>
+                                    <label for="task">4</label>
+                                    <input type="text" id="task" placeholder="Task?" name="task" required>
+                                </form>
+                            </td>
+                            <td>
+                                <form>
+                                    <label for="time">Time:</label>
+                                    <input type="time" id="time" placeholder="Time?" name="time" required>
+                                </form>
+                            </td>
+                            <td>
+                                <select name="priority" id="priority" required>
+                                    <option value="Low" selected>Low</option>
+                                    <option value="Medium">Medium</option>
+                                    <option value="High">High</option>
+
+                                </select>
+                            </td>
+                            <td>
+                                <select name="status" id="status" required>
+                                    <option value="Not Started" selected>Not Started</option>
+                                    <option value="Started">Started</option>
+                                    <option value="Completed">Completed</option>
+
+                                </select>
+                            </td>
+
+                        </tr>
+                        <tr>
+                            <td>
+                                <form>
+                                    <label for="task">5</label>
+                                    <input type="text" id="task" placeholder="Task?" name="task" required>
+                                </form>
+                            </td>
+                            <td>
+                                <form>
+                                    <label for="time">Time:</label>
+                                    <input type="time" id="time" name="time" required>
+                                </form>
+                            </td>
+                            <td>
+                                <select name="priority" id="priority" required>
+                                    <option value="Low" selected>Low</option>
+                                    <option value="Medium">Medium</option>
+                                    <option value="High">High</option>
+
+                                </select>
+                            </td>
+                            <td>
+                                <select name="status" id="status" required>
+                                    <option value="Not Started" selected>Not Started</option>
+                                    <option value="Started">Started</option>
+                                    <option value="Completed">Completed</option>
+
+                                </select>
+                            </td>
+
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+            <section align="center">
+                <textarea name="journal" id="journal" cols="65" rows="20" placeholder="Tell us about your day"
+                    required></textarea>
+            </section>
+            <section align="center">
+                <textarea cols="31 " rows="1" placeholder="Word Of The Day" required></textarea>
+                <textarea cols="31 " rows="1" placeholder="Current Mood Right Now" required></textarea>
+            </section>
+            <section align="center">
+                <h3>Did You Help Anyone Today?</h3>
+                <input type="radio" name="help" id="Yes" value="Yes" required>
+                <label for="Yes">YES</label>
+                <input type="radio" name="help" id="No" value="NO" required>
+                <label for="No">NO</label>
+                <h3>Were You Confrontional Today?</h3>
+                <input type="radio" name="argument" id="Yes" value="Yes" required>
+                <label for="Yes">YES</label>
+                <input type="radio" name="argument" id="No" value="NO" required>
+                <label for="No">NO</label>
+                <h3>Did You Overthink Today?</h3>
+                <input type="radio" name="overthink" id="Yes" value="Yes" required>
+                <label for="Yes">YES</label>
+                <input type="radio" name="overthink" id="No" value="NO" required>
+                <label for="No">NO</label>
+                <h3>Sucidial Thoughts?</h3>
+                <input type="radio" name="sucidial" id="Yes" value="Yes" required>
+                <label for="Yes">YES</label>
+                <input type="radio" name="sucidial" id="No" value="NO" required>
+                <label for="No">NO</label>
+                <h3>Did You Mediate Today?</h3>
+                <input type="radio" name="mediate" id="Yes" value="Yes" required>
+                <label for="Yes">YES</label>
+                <input type="radio" name="mediate" id="No" value="NO" required>
+                <label for="No">NO</label>
+            </section>
+            <div align="center">
+                <button type="submit" id="submit" onclick="alert('Submitted')">Submit</button>
+            </div>
+        </form>
+    </main>
+
+
+</body>
+
+</html>
