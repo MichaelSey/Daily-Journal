@@ -8,27 +8,35 @@
     <title>Daily Journal </title>
 </head>
 
-<body>
+<body bgcolor="black">
+    <header>
+        <nav>
+            <button onclick="location.href='/Users/Mic/Desktop/dailyjournal/WelcomePage.html'">
+                <img src="icon/closed-book.png" " width=" 100" height="100" />
+
+            </button>
+        </nav>
+    </header>
     <main>
         <form>
             <section>
-                <h1 align="center">Daily Journal</h1>
+                <h1 align="center" style="color: white ">Daily Journal</h1>
                 <hr>
 
-                <table border=".2" align="center">
+                <table border="1" align="center">
                     <thead>
                         <tr>
                             <th>
-                                <h2>Task</h2>
+                                <h2 style="color: white ">Task</h2>
                             </th>
                             <th>
-                                <h2> Due Time</h2>
+                                <h2 style="color: white "> Due Time</h2>
                             </th>
                             <th>
-                                <h2>Priority</h2>
+                                <h2 style="color: white ">Priority</h2>
                             </th>
                             <th>
-                                <h2>Status</h2>
+                                <h2 style="color: white ">Status</h2>
                             </th>
                         </tr>
                     </thead>
@@ -36,13 +44,13 @@
                         <tr>
                             <td>
                                 <form>
-                                    <label for="task">1</label>
+                                    <label for="task" style="color: white ">1</label>
                                     <input type="text" id="task" placeholder="Task?" name="task" required>
                                 </form>
                             </td>
                             <td>
                                 <form>
-                                    <label for="time">Time:</label>
+                                    <label for="time" style="color: white ">Time:</label>
                                     <input type="time" id="time" placeholder="Time?" name="time"
                                         pattern="[0-9]{2} :[0-9]{2}">
                                 </form>
@@ -68,13 +76,13 @@
                         <tr>
                             <td>
                                 <form>
-                                    <label for="task">2</label>
+                                    <label for="task" style="color: white ">2</label>
                                     <input type="text" id="task" placeholder="Task?" name="task" required>
                                 </form>
                             </td>
                             <td>
                                 <form>
-                                    <label for="time">Time:</label>
+                                    <label for="time" style="color: white ">Time:</label>
                                     <input type="time" id="time" placeholder="Time?" name="time" required>
                                 </form>
                             </td>
@@ -99,13 +107,13 @@
                         <tr>
                             <td>
                                 <form>
-                                    <label for="task">3</label>
+                                    <label for="task" style="color: white ">3</label>
                                     <input type="text" id="task" placeholder="Task?" name="task" required>
                                 </form>
                             </td>
                             <td>
                                 <form>
-                                    <label for="time">Time:</label>
+                                    <label for="time" style="color: white ">Time:</label>
                                     <input type="time" id="time" placeholder="Time?" name="time" required>
                                 </form>
                             </td>
@@ -130,13 +138,13 @@
                         <tr>
                             <td>
                                 <form>
-                                    <label for="task">4</label>
+                                    <label for="task" style="color: white ">4</label>
                                     <input type="text" id="task" placeholder="Task?" name="task" required>
                                 </form>
                             </td>
                             <td>
                                 <form>
-                                    <label for="time">Time:</label>
+                                    <label for="time" style="color: white ">Time:</label>
                                     <input type="time" id="time" placeholder="Time?" name="time" required>
                                 </form>
                             </td>
@@ -161,13 +169,13 @@
                         <tr>
                             <td>
                                 <form>
-                                    <label for="task">5</label>
+                                    <label for="task" style="color: white ">5</label>
                                     <input type="text" id="task" placeholder="Task?" name="task" required>
                                 </form>
                             </td>
                             <td>
                                 <form>
-                                    <label for="time">Time:</label>
+                                    <label for="time" style="color: white ">Time:</label>
                                     <input type="time" id="time" name="time" required>
                                 </form>
                             </td>
@@ -193,39 +201,39 @@
                 </table>
             </section>
             <section align="center">
-                <textarea name="journal" id="journal" cols="65" rows="20" placeholder="Tell us about your day"
+                <textarea name="journal" id="journal" cols="60" rows="20" placeholder="Tell us about your day"
                     required></textarea>
             </section>
             <section align="center">
-                <textarea cols="31 " rows="1" placeholder="Word Of The Day" required></textarea>
-                <textarea cols="31 " rows="1" placeholder="Current Mood Right Now" required></textarea>
+                <textarea cols="32 " rows="1" placeholder="Word Of The Day" required></textarea>
+                <textarea cols="25 " rows="1" placeholder="Current Mood Right Now" required></textarea>
             </section>
             <section align="center">
-                <h3>Did You Help Anyone Today?</h3>
+                <h3 style="color: white ">Did You Help Anyone Today?</h3>
                 <input type="radio" name="help" id="Yes" value="Yes" required>
-                <label for="Yes">YES</label>
+                <label for="Yes" style="color: white ">YES</label>
                 <input type="radio" name="help" id="No" value="NO" required>
-                <label for="No">NO</label>
-                <h3>Were You Confrontional Today?</h3>
+                <label for="No" style="color: white ">NO</label>
+                <h3 style="color: white ">Were You Confrontional Today?</h3>
                 <input type="radio" name="argument" id="Yes" value="Yes" required>
-                <label for="Yes">YES</label>
+                <label for="Yes" style="color: white ">YES</label>
                 <input type="radio" name="argument" id="No" value="NO" required>
-                <label for="No">NO</label>
-                <h3>Did You Overthink Today?</h3>
+                <label for="No" style="color: white ">NO</label>
+                <h3 style="color: white ">Did You Overthink Today?</h3>
                 <input type="radio" name="overthink" id="Yes" value="Yes" required>
-                <label for="Yes">YES</label>
+                <label for="Yes" style="color: white ">YES</label>
                 <input type="radio" name="overthink" id="No" value="NO" required>
-                <label for="No">NO</label>
-                <h3>Sucidial Thoughts?</h3>
+                <label for="No" style="color: white ">NO</label>
+                <h3 style="color: white ">Sucidial Thoughts?</h3>
                 <input type="radio" name="sucidial" id="Yes" value="Yes" required>
-                <label for="Yes">YES</label>
+                <label for="Yes" style="color: white ">YES</label>
                 <input type="radio" name="sucidial" id="No" value="NO" required>
-                <label for="No">NO</label>
-                <h3>Did You Mediate Today?</h3>
+                <label for="No" style="color: white ">NO</label>
+                <h3 style="color: white ">Did You Mediate Today?</h3>
                 <input type="radio" name="mediate" id="Yes" value="Yes" required>
-                <label for="Yes">YES</label>
+                <label style="color: white " for="Yes">YES</label>
                 <input type="radio" name="mediate" id="No" value="NO" required>
-                <label for="No">NO</label>
+                <label style="color: white " for="No">NO</label>
             </section>
             <div align="center">
                 <button type="submit" id="submit" onclick="alert('Submitted')">Submit</button>
