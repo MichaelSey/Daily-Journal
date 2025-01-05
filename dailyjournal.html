@@ -10,6 +10,69 @@
         body {
             background-color: #fff5db;
         }
+
+        h1 {
+            text-align: center;
+            color: #ff5600;
+        }
+
+        h3 {
+            text-align: center;
+            color: #ff5600;
+        }
+
+        h2 {
+            text-align: center;
+            color: #ff5600;
+        }
+
+        nav {
+            text-align: center;
+
+        }
+
+        button {
+            background-color: #ff5600;
+            border: none;
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+            border-radius: 8px;
+
+        }
+
+        table,
+        td,
+        th {
+            border: 1px solid;
+            margin: auto;
+            color: #ff5600;
+            text-align: center;
+
+
+        }
+
+        hr {
+            color: #ff5600;
+        }
+
+
+
+        .date {
+            margin: auto;
+            width: 50%;
+            text-align: center;
+            padding: 10px;
+        }
+
+        .currentdate {
+            color: #ff5600;
+        }
     </style>
 </head>
 
@@ -21,14 +84,21 @@
 
             </button>
         </nav>
+        <h1>Daily Journal</h1>
+        <div class="date">
+            <button type="button" onclick="document.getElementById('demo').innerHTML = Date()">
+                Set Date And Time Of Journal Entery</button>
+
+            <p id="demo" class="currentdate"></p>
+        </div>
+        <hr>
+
     </header>
     <main>
         <form>
             <section>
-                <h1 align="center" style="color: #ff5600 ">Daily Journal</h1>
-                <hr>
 
-                <table border="1" align="center">
+                <table>
                     <thead>
                         <tr>
                             <th>
@@ -241,7 +311,7 @@
                 <label style="color: #ff5600 " for="No">NO</label>
             </section>
             <div align="center">
-                <button type="submit" id="submit" onclick="alert('Submitted')" style="color: #ff5600;">Submit</button>
+                <button type="submit" id="submit" onclick="alert('Submitted')">Submit</button>
             </div>
         </form>
     </main>
